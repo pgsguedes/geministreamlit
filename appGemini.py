@@ -6,7 +6,7 @@ import google.generativeai as genai
 # Carregar variáveis
 # load_dotenv(dotenv_path='/Users/pgsgu/GeminiAPI/.env.py')
 # API_KEY = os.getenv("api_key")
-API_KEY ="AIzaSyBVp4Db6wkvep6M98sSk9-fxhzVakHopsE"
+API_KEY =""
 genai.configure(api_key=API_KEY)
 
 # Carregar Função gemini-pro model
